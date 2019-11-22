@@ -15,12 +15,9 @@ body{
   color: hsla(360, 0%, 13%, 0.9);
 }
 
-.button-main {
+#face-picture {
 	width: 180px;
 	height:180px;
-}
-
-#face-picture {
 	margin-top: 12vh;;	
 	margin-left: 12vw;;
 	margin-right: auto;
