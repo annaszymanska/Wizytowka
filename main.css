@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+
+/*==== BACKGROUND IMAGE ====*/
+body{
+  background: url(assets/background-image-bright.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: hsla(360, 0%, 13%, 0.9);
+}
+
+.button-main {
+	width: 180px;
+	height:180px;
+}
+
+#face-picture {
+	margin-top: 12vh;;	
+	margin-left: 12vw;;
+	margin-right: auto;
+	opacity: 0.85;
+	border: 2px solid beige;
+	box-shadow: 0px 0px 10px white;	
+}
+
+#face-picture:hover {
+	width: 190px;
+	height: 190px;
+	box-shadow: 0px 0px 20px blueviolet;
+	border: 2px solid blueviolet;
+	opacity: 1;
+}
+
+.menu-link {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin-top: 1rem;
+	background: hsla(0, 100%, 100%, 0.6);
+	box-shadow: 0px 0px 5px white;
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.7rem;
+	text-decoration: none;
+	color: darkslategrey;
+}
+
+.menu-link:hover {
+	width: 125px;
+	height: 125px;
+	background: hsla(0, 100%, 100%, 0.85);	
+	text-decoration: none;
+}
+
+#drawing:hover {
+	box-shadow: 0px 0px 20px forestgreen;
+}
+
+#recording:hover {
+	box-shadow: 0px 0px 20px deepskyblue;
+	background-color: 
+}
+
+#websites-creating:hover {
+	box-shadow: 0px 0px 20px gold;
+}
+
+div.link {
+	line-height: 120px;
+}
+
+div.link a.menu-link{
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.right {
+	margin-right: 10vw;
+	margin-left: auto;
+}
+
+.left {
+	margin-left: 10vw;
+	margin-right: auto;
+}
+
+
+.drawing {
+	
+}
+
+#recording {
+	margin-top: -10vh;
+}
+
+#websites-creating {
+	margin-right: 20vw;
+}
